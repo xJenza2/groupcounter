@@ -1,5 +1,5 @@
 var currentMembers = null;
-const url = "https://groups.roblox.com/v1/groups/16592351";
+const url = "https://groups.roblox.com/v1/groups/32480701";
 
 async function post(client) {
   var request;
@@ -47,8 +47,8 @@ async function post(client) {
         )} members**)`;
       }
 
-      const server = client.guilds.cache.get("932320416989610065");
-      const channel = server.channels.cache.get("1086185631836803083");
+      const server = client.guilds.cache.get("1343350810121080915");
+      const channel = server.channels.cache.get("1346506115201892404");
 
       await channel.send({
         content: content,
